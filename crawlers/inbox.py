@@ -11,11 +11,6 @@ def inbox_get_by_page(page):
 
     # print('Starting email crawling...')
 
-    # todo: for side view mode '//*[@id="conversation-list-columns"]/section/div[1]'
-    # subject '//*[@id="conversation-list-columns"]/section/div[2]/div[2]/div[1]/h4'
-    # time '//*[@id="conversation-list-columns"]/section/div[2]/div[2]/div[1]/span/time'
-    # sender '//*[@id="conversation-list-columns"]/section/div[2]/div[2]/div[2]'
-
     if page is not 1:
         driver.get("https://mail.protonmail.com/inbox?page=" + str(page))
 
