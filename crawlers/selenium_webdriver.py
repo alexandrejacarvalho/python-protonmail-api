@@ -11,7 +11,7 @@ def selenium_webdriver():
     # print('Starting webdriver...')
 
     options = Options()
-    # options.headless = True
+    options.headless = True
 
     return webdriver.Chrome(CHROMEDRIVER_PATH, options=options)
 
