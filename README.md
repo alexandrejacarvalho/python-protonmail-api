@@ -1,4 +1,4 @@
-![alt text](https://protonmail.com/images/media/brand/protonmail-corporate-matterhorn.jpg "ProtonMail Mountains Banner")
+![ProtonMail Banner](https://protonmail.com/images/media/brand/protonmail-corporate-matterhorn.jpg "ProtonMail Mountains Banner")
 
 ![Python Version](https://img.shields.io/badge/Python-3.7-yellow.svg)
 ![Python Framework](https://img.shields.io/badge/Framework-Flask-green.svg)
@@ -8,6 +8,9 @@ Unofficial Python API to interact with ProtonMail.
 
 ## Features
 * List inbox emails by page (/inbox/get/PAGE_HERE)
+
+## Quick Start
+* Edit the file ```config.py``` and change to your login credentials and ChromeDriver path
 
 ## Documentation
 > Coming soon

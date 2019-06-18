@@ -1,3 +1,4 @@
+from config import *
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
@@ -10,9 +11,9 @@ def selenium_webdriver():
     # print('Starting webdriver...')
 
     options = Options()
-    options.headless = True
+    # options.headless = True
 
-    return webdriver.Chrome('/path/to/chromedriver', options=options)
+    return webdriver.Chrome(CHROMEDRIVER_PATH, options=options)
 
 
 def selenium_webdriver_login(driver, email, password):
