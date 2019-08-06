@@ -18,6 +18,7 @@ Unofficial Python API to interact with ProtonMail.
 ## Roadmap
 Features:
 * Send Email
+* Two factor authentication
 * more to come...
 
 ## Releases
