@@ -15,5 +15,10 @@ Unofficial Python API to interact with ProtonMail.
 ## Documentation
 > Coming soon
 
+## Roadmap
+Features:
+* Send Email
+* more to come...
+
 ## Releases
 * v0.1 - 2019-06-18
