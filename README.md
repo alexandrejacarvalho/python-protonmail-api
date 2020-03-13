@@ -11,8 +11,9 @@ Unofficial Python API to interact with ProtonMail.
 
 ## Installation
 
+
 ## API Usage
-* ```/inbox/get/<page_number:int>``` - List inbox emails by page
+* GET ```/inbox/get/<page_number:int>``` - List inbox emails by page
 
 ## Documentation
 > Coming soon
