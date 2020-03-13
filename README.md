@@ -6,11 +6,13 @@
 
 Unofficial Python API to interact with ProtonMail.
 
-## Features
-* List inbox emails by page (/inbox/get/PAGE_HERE)
-
-## Quick Start
+## Getting Started
 * Edit the file ```config.py``` and change to your login credentials and ChromeDriver path
+
+## Installation
+
+## API Usage
+* ```/inbox/get/<page_number:int>``` - List inbox emails by page
 
 ## Documentation
 > Coming soon
@@ -20,6 +22,15 @@ Features:
 * Send Email
 * Two factor authentication
 * more to come...
+
+## Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
 
 ## Releases
 * v0.1 - 2019-06-18
